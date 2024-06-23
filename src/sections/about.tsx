@@ -14,28 +14,11 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Eric Huang and my Chinese is
-              <span className="whitespace-nowrap"> 黄士崧(huáng shì sōng)</span>
-              . I'm an independent <b>TypeScript Full-Stack</b> developer based
-              in Nanning, China.
-            </p>
-          </MotionDiv>
-          <MotionDiv delayOffset={0.5}>
-            <p>
-              As a technologies enthusiast, I am highly passionate about
-              building full-stack web applications. And I love learning new
-              technologies, especially elegant code architectures and design
-              patterns. I hope to leverage my technical skills to build valuable
-              apps that can make a difference in people's lives.
-            </p>
-          </MotionDiv>
-          <MotionDiv delayOffset={0.6}>
-            <p>
-              Outside of programming, I am also a photographer and filmmaker, I
-              enjoy doing photography and filmmaking and all things visual. I
-              hope my works can aspires people to see the beauty of the world
-              around us. So welcome to subscribe to my social media channels
-              above to see my works!
+              Hello, I'm Richard Byers and I'm a software engineer based in Belfast, Northern Ireland.
+
+              I am passionate about technology. Whether it comes down to the latest iPhone or recent AI advancements. I learned a lot during my time as an intern at Proofpoint and as a student at Queen's University of Belfast.
+
+              Outside of programming I enjoy playing video games, watching movies, tv shows and Youtube videos and going to the gym(when I can be bothered!).  
             </p>
           </MotionDiv>
         </article>

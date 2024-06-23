@@ -6,7 +6,7 @@ export default function hero() {
   return (
     <section className="my-8 flex flex-col items-center justify-center">
       <h1 className="mb-4 text-[1.4rem] md:text-[2rem]">
-        <MotionText delayOffset={0}>Hi, I'm Eric Huang! 👋</MotionText>
+        <MotionText delayOffset={0}>Hey there, I'm Richard Byers</MotionText>
       </h1>
       <div className="overflow-hidden rounded-full p-3 md:p-4">
         <MotionDiv>
@@ -25,17 +25,13 @@ export default function hero() {
       <h1>
         <MotionDiv delayOffset={0.8}>Developer 🧑🏻‍💻</MotionDiv>
       </h1>
-      <h1>
-        <MotionDiv delayOffset={1}>Photographer 📸</MotionDiv>
-      </h1>
       <div className="my-12 flex w-full flex-col gap-2 text-center lg:w-[50%]">
         <MotionDiv delayOffset={1.2}>
-          <p>Welcome to my personal page!</p>
+          <p>Welcome to my website!</p>
         </MotionDiv>
         <MotionDiv delayOffset={1.4}>
           <p>
-            Just an indie<b> ✨ TypeScript Full-Stack </b>developer who loves to
-            build something cool.
+            Recent graduate of Queen's University of Belfast & currently working for Proofpoint.
           </p>
         </MotionDiv>
       </div>

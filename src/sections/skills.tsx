@@ -2,22 +2,15 @@ import MotionDiv from "@/components/motion-div";
 import MotionList from "@/components/motion-list";
 import Image from "next/image";
 import reactIcon from "@/assets/icons/react.png";
-import nextjsIcon from "@/assets/icons/next-js.png";
-import vueIcon from "@/assets/icons/vue.png";
 import typescriptIcon from "@/assets/icons/typescript.png";
 import javascriptIcon from "@/assets/icons/javascript.png";
 import pythonIcon from "@/assets/icons/python.png";
 import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
-import shadcnuiIcon from "@/assets/icons/shadcn-ui.png";
-import pnpmIcon from "@/assets/icons/pnpm.png";
-import viteIcon from "@/assets/icons/vite.png";
-import prettierIcon from "@/assets/icons/prettier.png";
 import nodejsIcon from "@/assets/icons/nodejs.png";
 import nestjsIcon from "@/assets/icons/nest-js.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
-import prismaIcon from "@/assets/icons/prisma.png";
 import postgresIcon from "@/assets/icons/postgres.png";
 import dockerIcon from "@/assets/icons/docker.png";
 import gitIcon from "@/assets/icons/git.png";
@@ -31,7 +24,7 @@ import davinciResolveIcon from "@/assets/icons/davinci-resolve.png";
 import lightroomIcon from "@/assets/icons/lightroom.png";
 import ExpoIcon from "@/assets/icons/expo.png";
 import githubActionsIcon from "@/assets/icons/github-actions.png";
-import trpcIcon from "@/assets/icons/trpc.svg";
+
 export default function skills() {
   const data = [
     {
@@ -40,18 +33,6 @@ export default function skills() {
         {
           name: "React.js",
           icon: reactIcon,
-        },
-        {
-          name: "Next.js",
-          icon: nextjsIcon,
-        },
-        {
-          name: "Vue.js",
-          icon: vueIcon,
-        },
-        {
-          name: "tRPC",
-          icon: trpcIcon,
         },
         {
           name: "TypeScript",
@@ -66,64 +47,55 @@ export default function skills() {
           icon: html5Icon,
         },
         {
-          name: "Tailwind CSS",
+          name: "CSS",
           icon: tailwindcssIcon,
-        },
-
-        {
-          name: "shadcn/ui",
-          icon: shadcnuiIcon,
-        },
-        {
-          name: "PNPM",
-          icon: pnpmIcon,
-        },
-        {
-          name: "Vite",
-          icon: viteIcon,
-        },
-        {
-          name: "Prettier",
-          icon: prettierIcon,
-        },
+        }
       ],
     },
     {
       title: "Backend Development",
       skills: [
         {
-          name: "Nest.js",
-          icon: nestjsIcon,
+          name: "Java",
+          icon: javaIcon,
         },
         {
-          name: "Express.js",
-          icon: expressjsIcon,
+          name: "Python",
+          icon: pythonIcon,
         },
         {
-          name: "Node.js",
+          name: "PHP",
           icon: nodejsIcon,
-        },
-        {
-          name: "Prisma ORM",
-          icon: prismaIcon,
         },
         {
           name: "PostgreSQL",
           icon: postgresIcon,
         },
+        {
+          name: "SQLServer",
+          icon: postgresIcon,
+        },
       ],
     },
     {
-      title: "Mobile Development",
+      title: "Frameworks",
       skills: [
         {
-          name: "React Native",
-          icon: reactIcon,
+          name: "Spring Boot",
+          icon: javaIcon,
         },
         {
-          name: "Expo",
-          icon: ExpoIcon,
+          name: "Express.js",
+          icon: pythonIcon,
         },
+        {
+          name: "Flask",
+          icon: nodejsIcon,
+        },
+        {
+          name: "Laravel",
+          icon: nodejsIcon,
+        }
       ],
     },
     {
@@ -134,37 +106,16 @@ export default function skills() {
           icon: gitIcon,
         },
         {
-          name: "GitHub Actions",
-          icon: githubActionsIcon,
-        },
-        {
           name: "Docker",
           icon: dockerIcon,
         },
         {
-          name: "Ubuntu",
-          icon: ubuntuIcon,
-        },
-      ],
-    },
-    {
-      title: "Languages",
-      skills: [
-        {
-          name: "TypeScript",
-          icon: typescriptIcon,
+          name: "GitLab CI",
+          icon: dockerIcon,
         },
         {
-          name: "JavaScript",
-          icon: javascriptIcon,
-        },
-        {
-          name: "Python",
-          icon: pythonIcon,
-        },
-        {
-          name: "Java",
-          icon: javaIcon,
+          name: "Jenkins",
+          icon: dockerIcon,
         },
       ],
     },
@@ -176,34 +127,30 @@ export default function skills() {
           icon: macosIcon,
         },
         {
+          name: "Windows",
+          icon: macosIcon,
+        },
+        {
+          name: "Linux Mint",
+          icon: macosIcon,
+        },
+        {
           name: "VS Code",
           icon: vscodeIcon,
         },
         {
-          name: "Arc",
-          icon: arcIcon,
-        },
-        {
-          name: "Warp Terminal",
-          icon: warpIcon,
+          name: "IntelliJ IDEA",
+          icon: vscodeIcon,
         },
         {
           name: "Postman",
           icon: postmanIcon,
         },
-      ],
-    },
-    {
-      title: "Visual",
-      skills: [
         {
-          name: "DaVinci Resolve",
-          icon: davinciResolveIcon,
+          name: "DBeaver",
+          icon: postmanIcon,
         },
-        {
-          name: "Lightroom",
-          icon: lightroomIcon,
-        },
+
       ],
     },
   ];
