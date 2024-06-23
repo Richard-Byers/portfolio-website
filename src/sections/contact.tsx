@@ -10,12 +10,6 @@ export default function contact() {
       <MotionDiv>
         <h2>Contact</h2>
       </MotionDiv>
-      <MotionDiv>
-        <p>
-          If you are interested in working together, please don't hesitate to
-          get in touch with me.
-        </p>
-      </MotionDiv>
       <ContactList />
     </section>
   );

@@ -7,23 +7,25 @@ import javascriptIcon from "@/assets/icons/javascript.png";
 import pythonIcon from "@/assets/icons/python.png";
 import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
-import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
+import cssIcon from "@/assets/icons/CSS-Logo.png";
 import nodejsIcon from "@/assets/icons/nodejs.png";
-import nestjsIcon from "@/assets/icons/nest-js.png";
-import expressjsIcon from "@/assets/icons/express-js.png";
 import postgresIcon from "@/assets/icons/postgres.png";
 import dockerIcon from "@/assets/icons/docker.png";
 import gitIcon from "@/assets/icons/git.png";
-import ubuntuIcon from "@/assets/icons/ubuntu.svg";
 import macosIcon from "@/assets/icons/macos.png";
 import vscodeIcon from "@/assets/icons/vscode.png";
-import arcIcon from "@/assets/icons/arc.png";
-import warpIcon from "@/assets/icons/warp.webp";
 import postmanIcon from "@/assets/icons/postman.svg";
-import davinciResolveIcon from "@/assets/icons/davinci-resolve.png";
-import lightroomIcon from "@/assets/icons/lightroom.png";
-import ExpoIcon from "@/assets/icons/expo.png";
-import githubActionsIcon from "@/assets/icons/github-actions.png";
+import phpIcon from '@/assets/icons/PHP_logo.png';
+import sqlServerIcon from '@/assets/icons/SQLServer.png';
+import springBootIcon from '@/assets/icons/SpringtBoot.png';
+import expressJSIcon from '@/assets/icons/ExpressJS.png';
+import flaskIcon from '@/assets/icons/Flask.png';
+import laravelIcon from '@/assets/icons/Laravel.png';
+import gitlabCIIcon from '@/assets/icons/GitLabCI.png';
+import jenkinsIcon from '@/assets/icons/Jenkins.png';
+import windowsIcon from '@/assets/icons/Windows.png';
+import intelliJIcon from '@/assets/icons/IntelliJ.png';
+import DBeaverIcon from '@/assets/icons/DBeaver.png';
 
 export default function skills() {
   const data = [
@@ -48,7 +50,7 @@ export default function skills() {
         },
         {
           name: "CSS",
-          icon: tailwindcssIcon,
+          icon: cssIcon,
         }
       ],
     },
@@ -65,6 +67,10 @@ export default function skills() {
         },
         {
           name: "PHP",
+          icon: phpIcon,
+        },
+        {
+          name: "Node.js",
           icon: nodejsIcon,
         },
         {
@@ -73,8 +79,8 @@ export default function skills() {
         },
         {
           name: "SQLServer",
-          icon: postgresIcon,
-        },
+          icon: sqlServerIcon,
+        }
       ],
     },
     {
@@ -82,19 +88,19 @@ export default function skills() {
       skills: [
         {
           name: "Spring Boot",
-          icon: javaIcon,
+          icon: springBootIcon,
         },
         {
           name: "Express.js",
-          icon: pythonIcon,
+          icon: expressJSIcon,
         },
         {
           name: "Flask",
-          icon: nodejsIcon,
+          icon: flaskIcon,
         },
         {
           name: "Laravel",
-          icon: nodejsIcon,
+          icon: laravelIcon,
         }
       ],
     },
@@ -111,11 +117,11 @@ export default function skills() {
         },
         {
           name: "GitLab CI",
-          icon: dockerIcon,
+          icon: gitlabCIIcon,
         },
         {
           name: "Jenkins",
-          icon: dockerIcon,
+          icon: jenkinsIcon,
         },
       ],
     },
@@ -128,11 +134,7 @@ export default function skills() {
         },
         {
           name: "Windows",
-          icon: macosIcon,
-        },
-        {
-          name: "Linux Mint",
-          icon: macosIcon,
+          icon: windowsIcon,
         },
         {
           name: "VS Code",
@@ -140,7 +142,7 @@ export default function skills() {
         },
         {
           name: "IntelliJ IDEA",
-          icon: vscodeIcon,
+          icon: intelliJIcon,
         },
         {
           name: "Postman",
@@ -148,7 +150,7 @@ export default function skills() {
         },
         {
           name: "DBeaver",
-          icon: postmanIcon,
+          icon: DBeaverIcon,
         },
 
       ],

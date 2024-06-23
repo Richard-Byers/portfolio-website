@@ -4,7 +4,7 @@ import {
   faInstagram,
   faGithub,
   faTiktok,
-  faXTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";
 import { Button } from "@/components/ui/button";
@@ -25,34 +25,27 @@ const contacts: Contact[] = [
   {
     name: "Email",
     className: "bg-yellow-500 hover:bg-yellow-600",
-    href: "mailto:erich2s0103@gmail.com",
+    href: "mailto:rbyerswork@outlook.com",
     icon: faEnvelope,
   },
-
   {
-    name: "X",
+    name: "LinkedIn",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://twitter.com/erich2s",
-    icon: faXTwitter,
+    href: "https://linkedin.com/in/richard-byers-200b621b4/",
+    icon: faLinkedin,
   },
   {
     name: "Github",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://github.com/erich2s",
+    href: "https://github.com/Richard-Byers",
     icon: faGithub,
   },
   {
     name: "Instagram",
     className: "bg-pink-500 hover:bg-pink-600",
-    href: "https://instagram.com/eric.h2s/",
+    href: "https://instagram.com/ricky_byers/",
     icon: faInstagram,
-  },
-  {
-    name: "TikTok",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://tiktok.com/@erich2s",
-    icon: faTiktok,
-  },
+  }
 ];
 export default function ContactList({
   delayOffset = 0,

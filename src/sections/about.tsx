@@ -14,11 +14,11 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Richard Byers and I'm a software engineer based in Belfast, Northern Ireland.
-
-              I am passionate about technology. Whether it comes down to the latest iPhone or recent AI advancements. I learned a lot during my time as an intern at Proofpoint and as a student at Queen's University of Belfast.
-
-              Outside of programming I enjoy playing video games, watching movies, tv shows and Youtube videos and going to the gym(when I can be bothered!).  
+            Software engineer by day, entertainment enthusiast by night!  That's me, Richard Byers, from Belfast, Northern Ireland.  
+            I leverage my programming skills to build and work on improving full-stack applications.  My fascination with technology extends beyond coding. 
+            The lessons I learned I have learned while at  Proofpoint as have been team work, effective communication, discipline, problem solving and adaptabililty. 
+            Queen's University equipped me with the technical knowledge and problem-solving skills to excel in this field.
+            When I'm not coding, you'll likely find me gaming - I find it's a great way to unwind and recharge. (Well when not playing eSports titles that is!)  
             </p>
           </MotionDiv>
         </article>
@@ -27,7 +27,7 @@ export default function about() {
         <MotionDiv delayOffset={0.4}>
           <CoolPortraitCard className="hidden lg:block">
             <img
-              src="/photo.jpeg"
+              src="/CartoonGuy.PNG"
               alt="photo"
               className="w-[350px] min-w-[300px] rounded-xl transition-all"
             />
@@ -35,7 +35,7 @@ export default function about() {
         </MotionDiv>
         <MotionDiv delayOffset={0.4}>
           <img
-            src="/photo.jpeg"
+            src="/CartoonGuy.PNG"
             alt="photo"
             className="w-[350px] min-w-[300px] rounded-xl transition-all hover:rotate-3 hover:scale-105 lg:hidden"
           />
