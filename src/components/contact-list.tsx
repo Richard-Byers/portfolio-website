@@ -3,7 +3,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faGithub,
-  faTiktok,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";

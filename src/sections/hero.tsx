@@ -10,7 +10,7 @@ export default function hero() {
       <div className="overflow-hidden rounded-full p-3 md:p-4">
         <MotionDiv>
         <img
-              src="/RichardByersCircle.png"
+              src="/RichardByersCircle.jpeg"
               alt="RichardByers"
               className="w-[250px] min-w-[250px] rounded-xl transition-all"
             />
