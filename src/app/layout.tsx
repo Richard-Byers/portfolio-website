@@ -7,7 +7,7 @@ import GridBackground from "@/components/grid-background";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Richard Byers Software Engineer",
+  title: "Richard Byers|Software Engineer",
   metadataBase: new URL("https://www.rickybyers.com/"),
   alternates: {
     canonical: "/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   description: "Richard Byers' personal portfolio website",
   openGraph: {
-    title: "Richard Byers Software Engineer",
+    title: "Richard Byers|Software Engineer",
     description: "Richard Byers' personal portfolio website",
     images: [
       {

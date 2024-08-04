@@ -11,6 +11,7 @@ export default function contact() {
         <h2>Contact</h2>
       </MotionDiv>
       <ContactList />
+      <p>This website was based off a template made by <a href="https://github.com/erich2s">Eric Huang</a></p>
     </section>
   );
 }

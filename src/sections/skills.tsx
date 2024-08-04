@@ -1,31 +1,30 @@
 import MotionDiv from "@/components/motion-div";
 import MotionList from "@/components/motion-list";
 import Image from "next/image";
-import reactIcon from "@/assets/icons/react.png";
-import typescriptIcon from "@/assets/icons/typescript.png";
-import javascriptIcon from "@/assets/icons/javascript.png";
-import pythonIcon from "@/assets/icons/python.png";
-import javaIcon from "@/assets/icons/java.png";
-import html5Icon from "@/assets/icons/html5.png";
-import cssIcon from "@/assets/icons/CSS-Logo.png";
-import nodejsIcon from "@/assets/icons/nodejs.png";
-import postgresIcon from "@/assets/icons/postgres.png";
-import dockerIcon from "@/assets/icons/docker.png";
-import gitIcon from "@/assets/icons/git.png";
-import macosIcon from "@/assets/icons/macos.png";
-import vscodeIcon from "@/assets/icons/vscode.png";
+
+import cssIcon from "@/assets/icons/css.svg";
+import DBeaverIcon from '@/assets/icons/dbeaver.svg';
+import dockerIcon from "@/assets/icons/docker.svg";
+import expressJSIcon from '@/assets/icons/ExpressJS.svg';
+import flaskIcon from '@/assets/icons/Flask.svg';
+import gitIcon from "@/assets/icons/git.svg";
+import gitlabCIIcon from '@/assets/icons/gitlab.svg';
+import html5Icon from "@/assets/icons/html5.svg";
+import intelliJIcon from '@/assets/icons/intellij.svg';
+import javaIcon from "@/assets/icons/java.svg";
+import javascriptIcon from "@/assets/icons/javascript.svg";
+import macosIcon from "@/assets/icons/macos.svg";
+import nodejsIcon from "@/assets/icons/nodejs.svg";
+import phpIcon from '@/assets/icons/php.svg';
 import postmanIcon from "@/assets/icons/postman.svg";
-import phpIcon from '@/assets/icons/PHP_logo.png';
-import sqlServerIcon from '@/assets/icons/SQLServer.png';
-import springBootIcon from '@/assets/icons/SpringtBoot.png';
-import expressJSIcon from '@/assets/icons/ExpressJS.png';
-import flaskIcon from '@/assets/icons/Flask.png';
-import laravelIcon from '@/assets/icons/Laravel.png';
-import gitlabCIIcon from '@/assets/icons/GitLabCI.png';
-import jenkinsIcon from '@/assets/icons/Jenkins.png';
-import windowsIcon from '@/assets/icons/Windows.png';
-import intelliJIcon from '@/assets/icons/IntelliJ.png';
-import DBeaverIcon from '@/assets/icons/DBeaver.png';
+import postgresIcon from "@/assets/icons/postgres.svg";
+import pythonIcon from "@/assets/icons/python.svg";
+import reactIcon from "@/assets/icons/react.svg";
+import springBootIcon from '@/assets/icons/springboot.svg';
+import sqlServerIcon from '@/assets/icons/sqlserver.svg';
+import typescriptIcon from "@/assets/icons/typescript.svg";
+import vscodeIcon from "@/assets/icons/vscode.svg";
+import windowsIcon from '@/assets/icons/windows.svg';
 
 export default function skills() {
   const data = [
@@ -98,10 +97,6 @@ export default function skills() {
           name: "Flask",
           icon: flaskIcon,
         },
-        {
-          name: "Laravel",
-          icon: laravelIcon,
-        }
       ],
     },
     {
@@ -118,10 +113,6 @@ export default function skills() {
         {
           name: "GitLab CI",
           icon: gitlabCIIcon,
-        },
-        {
-          name: "Jenkins",
-          icon: jenkinsIcon,
         },
       ],
     },
